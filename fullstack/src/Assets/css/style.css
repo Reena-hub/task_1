@@ -1,0 +1,51 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+img{max-width:100%;}
+a{text-decoration: none;}
+ul{list-style: none;padding:0;}
+body{font-family: 'Poppins', sans-serif;font-size:16px;background-color: #f3f3f9;}
+
+.co{color:#9194a1}
+ul{line-height:45px;}
+.dash{color:#00725f;}
+.green{color:#0ab39c;}
+.pointer{cursor: pointer;}
+.colors{color:#838fb9;}
+.forgot{color:#9295a5;}
+.space{margin-right:4px;}
+.coloring{color:#f06548;}
+.heading{padding-top:80px;}
+.card{width:34%;margin: 0 auto;}
+.btn{background-color:#00A88f;}
+.backg{background-color: white;}
+.right-section{margin-left: 250px;}
+.yellow{background-color: #fef4e4;}
+.greenish{background-color: #daf4f0}
+.here{color:#878a99; font-size:13px;}
+.fonts{font-size:20px; font-weight:600}
+.img-gradient{height:340px;width:100%;}
+.ysquare{color:white;font-size: 38px;}
+.btn:hover{background-color: #00725f;}
+.hov:hover, .color:hover{color:white;}
+.fonting{color:#495057; font-size:22px}
+.welcome{color:#364574;font-size:24px;}
+.signin{font-size:18px;color: #878a99;}
+.blue{background-color:rgb(226, 229, 237);}
+.pink{background-color: rgb(223, 240, 250);}
+.good{font-size:16px;font-weight:500; color:#495057}
+.premium{color:rgba(255,255,255,.5);font-size: 18px;}
+.menu{font-size:12px;color:#838fb9; font-weight:600;}
+.color{color:#abb9e8; font-size:15px; font-weight:400;}
+.bottom{bottom:0; position: absolute; width: calc(100% - 250px)}
+.background{ height:48px; width:48px;font-size:14px; color:#878a99;}
+.link{text-decoration:underline; color:rgb(64,81,137); font-size:13px;}
+.gradient{width:100%;height: 340px;background-color: #364574;opacity: .8;}
+.cards{margin:10px 14px;padding:12px; width:calc(25% - 28px); background-color: white; border-radius: 6px;;}
+.left-section{width:250px;background-color: #405189;padding:20px;text-align: center;overflow-y: auto;top:0; bottom:0}
+.cards:hover{box-shadow:0 4px 8px rgba(56,65,74,.1); transform: translateY(calc(-26px / 5)); transition:0.4s; cursor: pointer;}
+.svgInsert{background-image: url(../images/shape.svg);background-repeat: no-repeat;background-size: cover;height:120px;width:100%;}
+.imageInsert{background-image: url(../images/backg.jpg); background-position: center; background-size: cover; width:100%; height: 340px; opacity: .5;}
+
+@media (max-width:500px){.card{width:86%}}
+@media (min-width: 768px) and (max-width: 991px){.card{width:60%;}}
+@media (min-width: 501px) and (max-width: 767px){.card{width:80%;}}
+@media (min-width: 992px) and (max-width: 1199px){.card{width:50%;}}
